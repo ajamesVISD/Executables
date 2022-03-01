@@ -12,7 +12,7 @@ public class App
 {
     public static void main( String[] args )
     {
-        Executable e = new SimpleGame();
+        Executable e = new twentyQuestoins();
         e.start(System.in, System.out);
     }
 }

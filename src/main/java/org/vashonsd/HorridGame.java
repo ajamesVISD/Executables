@@ -18,6 +18,7 @@ public class HorridGame implements Executable {
         }
         String str= n.toString();
         //ps.println(str);
+        ps.println("Guess a sequence of ten letters and numbers: ");
 
 
         boolean done= false;

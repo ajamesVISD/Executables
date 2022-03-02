@@ -17,7 +17,7 @@ public class HorridGame implements Executable {
             n.append(lettersNums.charAt(index));
         }
         String str= n.toString();
-        ps.println(str);
+        //ps.println(str);
 
 
         boolean done= false;
@@ -31,15 +31,20 @@ public class HorridGame implements Executable {
             }else if(ans.substring(i-1, i)!=(str.substring(i-1, i))){
                 st= st+ "!";
             }if(ans.equals(str)){
-            ps.println("Youre done! ");
+            //ps.println("Youre done! ");
             done =true; }
         }
+        for(int t=1; t<=ans.length(); t++){
+            if((!(str.substring(t - 1, t).equals(ans.substring(t - 1, t))) &&ans.contains(str.substring(t-1, t)))){
+                ps.println("It also contains " + (str.substring(t-1, t)));
+            }
         }if(ans.equals(str)){
-                ps.println("Youre done! ");
+                ps.println("You're done! ");
                 done =true; }
-        ps.println(st);}
 
-    }
+        ps.println("What you have so far is: "+ st);}
+
+    }}
 
     @Override
     public String getName() {

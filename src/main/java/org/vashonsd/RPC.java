@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
 
-public class Game implements Executable {
+public class RPC implements Executable {
     @Override
     public void start(InputStream is, PrintStream ps) {
         //declares options that we use for comparisions.

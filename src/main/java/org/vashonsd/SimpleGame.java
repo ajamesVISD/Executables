@@ -19,16 +19,16 @@ public class SimpleGame implements Executable {
 
     @Override
     public String getName() {
-        return name;
+        return "RPC";
     }
 
     @Override
     public String getDescription() {
-        return description;
+        return "simple text based rock paper scissors";
     }
 
     @Override
     public String getAuthor() {
-        return author;
+        return "Hayden Rosen";
     }
 }

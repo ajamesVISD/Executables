@@ -39,16 +39,16 @@ public class JerrysGame implements Executable {
 
     @Override
     public String getName() {
-        return null;
+        return "Criminal Record Creator";
     }
 
     @Override
     public String getDescription() {
-        return null;
+        return "Enter your crimes and we'll make the record!";
     }
 
     @Override
     public String getAuthor() {
-        return null;
+        return "SMS";
     }
 }

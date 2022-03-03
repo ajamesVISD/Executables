@@ -15,10 +15,10 @@ public class twentyQuestoins implements Executable {
         {
             userResponce = scan.nextInt();
             if (userResponce < answer) {
-                System.out.print("no it is more");
+                System.out.println("no it is more");
             }
             if (userResponce > answer) {
-                System.out.print("no it is less");
+                System.out.println("no it is less");
             }
         }
         System.out.print("you got it");
@@ -26,16 +26,16 @@ public class twentyQuestoins implements Executable {
 
     @Override
     public String getName() {
-        return null;
+        return "20 questions";
     }
 
     @Override
     public String getDescription() {
-        return null;
+        return "play 20 questions";
     }
 
     @Override
     public String getAuthor() {
-        return null;
+        return "bishop";
     }
 }

@@ -32,7 +32,7 @@ public class HorridGame implements Executable {
             }else if(ans.substring(i-1, i)!=(str.substring(i-1, i))){
                 st= st+ "!";
             }if(ans.equals(str)){
-            //ps.println("Youre done! ");
+            //ps.println("You're done! ");
             done =true; }
         }
         for(int t=1; t<=ans.length(); t++){
@@ -49,16 +49,16 @@ public class HorridGame implements Executable {
 
     @Override
     public String getName() {
-        return null;
+        return "Horrid Wordle";
     }
 
     @Override
     public String getDescription() {
-        return null;
+        return "Guess the random string of 10 letters or numbers. You can see if you got it in the right order, or if you got a letter right but it is not in the right place! Just like wordle!";
     }
 
     @Override
     public String getAuthor() {
-        return null;
+        return "Alex!!";
     }
 }

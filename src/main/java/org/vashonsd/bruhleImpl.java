@@ -83,7 +83,7 @@ public class bruhleImpl implements Executable {
 
     @Override
     public String getName() {
-        return "rock, paper, scissors";
+        return "Rock, Paper, Scissors";
     }
 
     @Override

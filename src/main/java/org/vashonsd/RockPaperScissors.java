@@ -121,16 +121,16 @@ public class RockPaperScissors implements Executable {
 
     @Override
     public String getName() {
-        return null;
+        return "RockPaperScissorsAwesome";
     }
 
     @Override
     public String getDescription() {
-        return null;
+        return "A rock paper scissors game with a broken two player mode";
     }
 
     @Override
     public String getAuthor() {
-        return null;
+        return "MTS";
     }
 }

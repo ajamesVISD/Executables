@@ -94,16 +94,16 @@ public class Hangman implements Executable {
 
     @Override
     public String getName() {
-        return null;
+        return "Hangman";
     }
 
     @Override
     public String getDescription() {
-        return null;
+        return "A game in which a man is hung if you fail to guess a word.";
     }
 
     @Override
     public String getAuthor() {
-        return null;
+        return "SD";
     }
 }

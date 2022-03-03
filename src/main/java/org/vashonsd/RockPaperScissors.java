@@ -126,7 +126,7 @@ public class RockPaperScissors implements Executable {
 
     @Override
     public String getDescription() {
-        return "A rock paper scissors game with a broken two player mode";
+        return "A rock paper scissors game with a non working two player mode";
     }
 
     @Override

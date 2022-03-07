@@ -5,7 +5,7 @@ import java.io.PrintStream;
 import java.util.Scanner;
 import java.util.Random;
 
-public class RockPaperScissors implements Executable {
+public class MyRockPaperScissors implements Executable {
 
         private String name;
 

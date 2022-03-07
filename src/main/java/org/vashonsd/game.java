@@ -9,7 +9,7 @@ public class game implements Executable {
     public void start(InputStream is, PrintStream ps) {
 
         Scanner scan = new Scanner(is);
-        int secretNumber = + 1 + (int) (Math.random()* 99);
+        int secretNumber = 1 + (int) (Math.random()* 99);
         int userResponse =-1;
         int numGuesses = 0;
         ps.println("Welcome to Guess the number!");

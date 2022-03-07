@@ -22,22 +22,21 @@ public class GameGame implements Executable {
                 userGuesses++;
             }
         }
-        if (userGuesses <= 5) ps.println("Congratulations.");
-        else ps.println("Took you awhile for only 10 numbers, eh?");
+        ps.println("Congratulations.");
     }
 
     @Override
     public String getName() {
-        return null;
+        return "Guessing";
     }
 
     @Override
     public String getDescription() {
-        return null;
+        return "A game where you have to guess a number from 1-10. Easier version of the typical 1-100.";
     }
 
     @Override
     public String getAuthor() {
-        return null;
+        return "JTB";
     }
 }

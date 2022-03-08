@@ -4,7 +4,7 @@ import java.io.InputStream;
 import java.io.PrintStream;
 import java.util.Scanner;
 
-public class game implements Executable {
+public class Game implements Executable {
     @Override
     public void start(InputStream is, PrintStream ps) {
 
